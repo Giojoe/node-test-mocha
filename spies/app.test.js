@@ -12,8 +12,8 @@ describe('App Express spy', () => {
 
   it('should call the spy correctly', () => {
     var spy = expect.createSpy();
-    spy('Jaturon', 22);
-    expect(spy).toHaveBeenCalledWith('Jaturon',22);
+    spy('Joe', 22);
+    expect(spy).toHaveBeenCalledWith('Joe',22);
   });
 
   it('should call saveUser with user object', () => {
